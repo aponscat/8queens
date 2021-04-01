@@ -18,6 +18,7 @@ Indicates that the algorithm has scanned 1 solution with 1 invalid move, 10 solu
 limitSearch is the number of loser moves detected when the algorithm stops looking for all valid movements. For example if limitSearch=1 when the first invalid queen position is found the algorithm stops and try another solution, so, a limitSearch lower makes the algorithm faster.
 
 Example output:
+```
 Is a valid solution!
 Current board is (0) TOTAL(4764):
 SolutionArray: 1,10,37,1
@@ -30,5 +31,6 @@ SolutionArray: 1,10,37,1
 5 - o-------
 6 - ------o-
 7 - ---o----
+```
 
 
