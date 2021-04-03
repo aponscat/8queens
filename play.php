@@ -14,5 +14,8 @@ use Omatech\Queens\EightQueens;
 
 define ("DIMENSIONS", 8);
 $queens=new EightQueens();
+$startTime=microtime(true);
 $queens->findSolution(3,4);
+$endTime=microtime(true);
+echo "Time: ".round($endTime-$startTime,2)."s\n";
 
